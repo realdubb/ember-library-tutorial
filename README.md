@@ -1,7 +1,26 @@
-# Library-app
+# Ember Library App
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+
+This is an app I created to learn ember following this tutorial [YoEmber.com](http://yoember.com)
+
+Uses firebase backend to store some simple models and run CRUD operations
+
+Models
+
+* contacts
+* libraries
+* invitations
+
+
+## Screenshots
+
+
+<img src="screenshots/home.png" height="300px">
+<img src="screenshots/contact-entry.png" height="200px">
+<img src="screenshots/contact-admin.png" height="200px">
+
 
 ## Prerequisites
 
