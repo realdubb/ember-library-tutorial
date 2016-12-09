@@ -5,6 +5,7 @@
 <table class="table table-bordered table-striped">
   <thead>
     <tr>
+      <th>Action</th>
       <th>ID</th>
       <th>E-mail</th>
     </tr>
@@ -12,6 +13,7 @@
   <tbody>
   {{#each model as |invitation|}}
     <tr>
+      <td><button class="btn btn-danger btn-xs" {{action 'deleteInvitation' invitation}}>Delete</button></td>
       <th>{{invitation.id}}</th>
       <td>{{invitation.email}}</td>
     </tr>
