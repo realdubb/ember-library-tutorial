@@ -1,0 +1,6 @@
+// Created by firebase-cli - example only - this line not valid
+{
+  "projects": {
+    "default": "project-name"
+  }
+}
