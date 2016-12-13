@@ -18,9 +18,9 @@ export default Ember.Controller.extend({
 
   actions: {
 
-    saveInvitation(model) {
+    saveInvitation() {
 
-      model.save().then((response) => {
+      this.model().save().then((response) => {
         this.set('responseMessage', `Thank you! We saved your email address with the following id: ${response.get('id')}`);
         this.set('emailAddress', '');
       });
